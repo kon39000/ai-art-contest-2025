@@ -78,7 +78,7 @@ export default function RulesSection() {
               </li>
               <li className="flex items-start gap-3">
                 <i className="ri-check-line text-green-500 w-5 h-5 flex items-center justify-center mt-1"></i>
-                <span>指定されたAIツールを使用すること</span>
+                <span>どの生成AIツールでも使用可能</span>
               </li>
             </ul>
           </div>
@@ -121,7 +121,7 @@ export default function RulesSection() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-500 p-6 rounded-r-xl">
+        <div className="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-500 p-6 rounded-r-xl mb-8">
           <h3 className="text-xl font-bold mb-3 text-red-800 flex items-center gap-2">
             <i className="ri-alert-line w-6 h-6 flex items-center justify-center"></i>
             注意事項
@@ -133,6 +133,20 @@ export default function RulesSection() {
             <li>• 応募作品はYouTubeやSNSで公開される可能性あり</li>
             <li>• 規約違反が判明した場合、入賞を取り消す場合あり</li>
           </ul>
+        </div>
+
+        <div className="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 p-8 rounded-2xl text-center">
+          <h3 className="text-2xl font-bold mb-4 text-gray-800 flex items-center justify-center gap-3">
+            <i className="ri-file-text-line text-blue-500 w-8 h-8 flex items-center justify-center"></i>
+            詳細な応募規約
+          </h3>
+          <p className="text-lg text-gray-700 mb-6">
+            参加資格、作品要件、著作権、禁止事項など<br />
+            詳しい応募条件と規約はこちらをご確認ください。
+          </p>
+          <Link href="/terms" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-8 py-3 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg whitespace-nowrap cursor-pointer">
+            詳細な規約を確認する
+          </Link>
         </div>
       </div>
     </section>

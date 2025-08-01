@@ -23,8 +23,11 @@ export default function CTASection() {
           <a href="https://forms.gle/WG1eDSDFEZPnbSbV9" target="_blank" rel="noopener noreferrer" className="bg-white text-purple-600 px-10 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg whitespace-nowrap cursor-pointer">
             今すぐ応募する
           </a>
-          <Link href="/contact" className="border-2 border-white text-white px-10 py-4 rounded-full text-xl font-bold hover:bg-white hover:text-purple-600 transition-all duration-300 whitespace-nowrap cursor-pointer">
-            質問・お問い合わせ
+          <Link href="/terms" className="border-2 border-white text-white px-10 py-4 rounded-full text-xl font-bold hover:bg-white hover:text-purple-600 transition-all duration-300 whitespace-nowrap cursor-pointer">
+            応募規約を確認
+          </Link>
+          <Link href="/contact" className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white hover:text-purple-600 transition-all duration-300 whitespace-nowrap cursor-pointer">
+            お問い合わせ
           </Link>
         </div>
 
