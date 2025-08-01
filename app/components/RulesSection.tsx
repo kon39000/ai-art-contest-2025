@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 export default function RulesSection() {
   return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
