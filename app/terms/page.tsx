@@ -1,6 +1,17 @@
 'use client';
 
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "応募規約・参加条件 | AIアートコンテスト2025",
+  description: "AIアートコンテスト2025の詳細な応募条件と規約。参加資格、作品要件、著作権、禁止事項について説明しています。",
+  openGraph: {
+    title: "応募規約・参加条件 | AIアートコンテスト2025",
+    description: "AIアートコンテスト2025の詳細な応募条件と規約。参加資格、作品要件、著作権、禁止事項について説明しています。",
+    images: ["/ogp-image.png"],
+  },
+};
 
 export default function TermsPage() {
   return (
